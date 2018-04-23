@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmed.dummyapp.NewNoteActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:backgroundTint="#5ccc"
+        android:id="@+id/title_text_View2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Title"
+        android:paddingLeft="8dp"
+        android:background="@drawable/rectangle"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+    <EditText
+        android:backgroundTint="#3ccc"
+        android:id="@+id/context_text_view2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Context"
+        android:paddingLeft="8dp"
+        android:background="@drawable/rectangle"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="top"
+
+        />
+    <TextView
+        android:id="@+id/add_note_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add note"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:layout_marginLeft="274dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorAccent"/>
+
+</LinearLayout>

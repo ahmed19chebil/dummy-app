@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DummyApp</string>
+    <string name="title_activity_notes">NotesActivity</string>
+</resources>
