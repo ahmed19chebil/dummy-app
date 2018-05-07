@@ -44,9 +44,9 @@ public class ContactsActivity extends AppCompatActivity {
 
         if (contacts.size() == 0 ){
             contacts.add(new Contact("ahmed chebil","ahmed@ahmed.com","+2156",R.drawable.birds));
-            contacts.add(new Contact("ahmeebil","ahmed@ahmed.com","+2156",R.drawable.fox));
-            contacts.add(new Contact("ahmed","ahmed@ahmed.com","+2156",R.drawable.flamingo));
-            contacts.add(new Contact("ahml","ahmed@ahmed.com","+2156",R.drawable.birds));
+            contacts.add(new Contact("ibtissem chalbi","ib@chalbi.com","+2156",R.drawable.fox));
+            contacts.add(new Contact("foulen ben foulen","foulen@gmail.com","+2156",R.drawable.flamingo));
+            contacts.add(new Contact("klk","klk@inconnu.com","+2156",R.drawable.birds));
         }
 
 

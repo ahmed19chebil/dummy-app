@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">DummyApp</string>
+    <string name="app_name">Mock Starter</string>
     <string name="title_activity_notes">NotesActivity</string>
 </resources>
